@@ -1,0 +1,36 @@
+#socialmedia ul li {
+	float: left;
+	margin: 10px
+}
+#socialmedia ul li a {
+	display: block;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+	width: 48px;
+	height: 48px;
+	background-image: url(../images/socialNav.png);
+}
+#socialmedia ul li.linkedin a {
+	background-position: -10px -66px;
+}
+#socialmedia ul li.twitter a {
+	background-position: -68px -66px;
+}
+#socialmedia ul li.facebook a {
+	background-position: -126px -66px;
+}
+#socialmedia ul li.rss a {
+	background-position: -182px -66px;
+}
+#socialmedia ul li.linkedin a:hover {
+	background-position-y: -6px;
+}
+#socialmedia ul li.twitter a:hover {
+	background-position-y: -6px;
+}
+#socialmedia ul li.facebook a:hover {
+	background-position-y: -6px;
+}
+#socialmedia ul li.rss a:hover {
+	background-position-y: -6px;
+}

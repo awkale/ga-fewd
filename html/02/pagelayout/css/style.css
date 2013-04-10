@@ -1,0 +1,43 @@
+h1 {
+	font-size: 32px;
+	color: purple;
+}
+h2 {
+	font-size: 24px;
+	font-style: italic;
+	text-decoration: underline;
+}
+a{
+	text-decoration: none;
+}
+h1 {
+
+}
+h2 {
+
+}
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+h4 {
+	font-size: 18px;
+	color: #666666;
+}
+h5 {
+	font-size: 16px;
+	background-color: #333333;
+	color: green;
+}
+h6 {
+
+}
+p {
+	margin-bottom: 20px;
+}
+#container {
+	width: 960px;
+	margin: 100px auto 0;
+	padding: 20px;
+	background-image: url(../images/pattern4.png);
+}

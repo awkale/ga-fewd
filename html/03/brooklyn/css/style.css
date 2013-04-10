@@ -1,0 +1,55 @@
+/*
+
+Style Hints:
+
+Body Font Size = 12px
+	 Line-height: 1.6;
+	 Font Family = "Times New Roman", serif
+	 Font Color = #656565
+	 Background: #F3EBE9
+
+H1 Font Size = 40px
+   Font Family = Arial, Helvetica, sans-serif
+   Text-transform: uppercase;
+   Font Color = #999999
+
+Link Hover Color = #20222a
+
+*/
+
+body {
+	background-color: #F3EBE9;
+	color: #656565;
+	font-size: .625em;
+	font-family: "Times New Roman", serif;
+}
+#container {
+	width: 970px;
+	padding: 10px;
+	background: #fff;
+	margin: 0 auto;
+}
+h1 {
+	font-family: Helvetica, sans-serif;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #999;
+}
+h1 a {
+	color: #999;
+	text-decoration: none;
+}
+#mainbanner img {
+	border:  5px solid #999;
+}
+h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+.presslogo {
+	display: inline-block;
+}
+.presslogo img {
+	border: 5px solid #999;
+	margin-right: 5px;
+}

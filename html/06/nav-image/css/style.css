@@ -1,0 +1,39 @@
+/*-----------------------------------------------------------------------------
+GENERAL
+-----------------------------------------------------------------------------*/
+
+body,html {
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+}
+
+header {
+	background: #000;
+	height: 80px;
+}
+
+/*-----------------------------------------------------------------------------
+NAVIGATION
+-----------------------------------------------------------------------------*/
+
+#main-nav ul li {
+	float: left;
+	height: 80px;
+}
+#main-nav ul li a {
+	display: block;
+	text-decoration: none;
+	color: #ccc;
+	padding: 30px 20px;
+}
+#main-nav ul li a:hover {
+	background-image: url(../images/bg_nav_rollover.png);
+	background-repeat: repeat-x;
+}
+
+
+
+
+

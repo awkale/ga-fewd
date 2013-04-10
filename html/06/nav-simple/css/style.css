@@ -1,0 +1,30 @@
+#main-nav ul {
+	width: 200px;
+	background-color: #ccc;
+	margin: 0px;
+	padding: 100px 10px;
+}
+#main-nav ul li {
+	margin: 10px 0;
+}
+#main-nav ul li a {
+	text-decoration: none;
+	padding: 10px 30px;
+	color: #333;
+	border-radius: 3px;
+	display: block;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+}
+#main-nav ul li a:hover {
+	background-color: pink;
+	color: #333;
+
+}
+#main-nav ul li a.selected {
+	color: green;
+}
+
+
+
+
