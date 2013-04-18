@@ -1,14 +1,18 @@
 /**
  * Javascript Exercise: Loops and Arrays.
  * Most of your answers should be stored in variables called q1, q2 etc..
- Print the variables q1, q1 etc to the console. 
+ Print the variables q1, q1 etc to the console.
  */
 
 /**
  * Question 1
- * Create a 'for' loop that populates an array with the numbers 1 through 10 
+ * Create a 'for' loop that populates an array with the numbers 1 through 10
  */
-   var myArray = [];
+var myArray = [];
+for (var i = 1; i <= 10; i++) {
+	myArray.push(i);
+}
+console.log(myArray);
 
 
 
@@ -20,6 +24,13 @@
 var sub = 100;
 var start = 1;
 
+while (start <= 10) {
+	sub = sub - start;
+	console.log(sub);
+	console.log(start);
+	start++;
+}
+
 
 
 /**
@@ -30,7 +41,14 @@ var start = 1;
 var someNums = [3, 1, 88, -1, 33, 96, 35, 12, 72];
 var largest_num = someNums[0];
 
+//SYNTAX: for ([initialExpression]; [condition]; [incrementExpression]) {statement}
 
+for (i = 0; i < someNums.length; i++) {
+	if (someNums[i] > largest_num) {
+		largest_num = someNums[i];
+	}
+}
+console.log(largest_num);
 
 /**
  * Question 4
@@ -39,10 +57,19 @@ var largest_num = someNums[0];
  */
 var small = someNums[0];
 
+for (i = 0; i < someNums.length; i++) {
+	if (someNums[i] < small) {
+		small = someNums[i];
+	}
+}
+console.log(small);
+
+
+
 /**
  * Question 5
- * Count how many elements appear in BOTH arrays. Store the number of duplicates in the 
- * variable "totalDuplicates". 
+ * Count how many elements appear in BOTH arrays. Store the number of duplicates in the
+ * variable "totalDuplicates".
  * Hint: You will need to do a loop inside of another loop
  */
 var firstArray = ['peaches', 'apples', 'pears', 'oranges', 'plums', 'water melon', 'strawberries'];
@@ -50,9 +77,19 @@ var secondArray = ['blueberries', 'water melon', 'tomatoes', 'apples', 'plums', 
 var totalDuplicates = 0;
 
 
+for (var i = 0; i < firstArray.length; i++) {
+	for (var j = 0; j < secondArray.length; j++) {
+		if(firstArray[i] == secondArray[j]) {
+			totalDuplicates = totalDuplicates + 1;
+		}
+	}
+}
+
+console.log("Question 5:" + totalDuplicates);
+
 /**
  * Question 6 - ******BONUS******
- * Count the number of unique elements are in the array. In other words, in the 
+ * Count the number of unique elements are in the array. In other words, in the
  * array [1, 2, 1] there are two unique numbers: 1 and 2.
  * Store the number of uniques in "totalUniques"
  */
