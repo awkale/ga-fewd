@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/*
+Designed and developed by philosophie llc
+
+Client: 
+Project: Website 1.0
+Designers: Emerson Taymor and Skot Carruth
+
+© all work is an act of philosophie
+
+===COLOR SCHEME===
+
+Background: 
+Links: 
+Headers: 
+Accent: 
+Borders: 
+	
+*/
+
+body{
+	font-family: helvetica, arial, sans-serif;
+	font-size: .625em;
+	background:;
+}
+
+.container{
+	margin: 0 auto;
+}
+
+/* ~~~~~ Typography ~~~~~ */
+
+a {text-decoration:none; color: ;}
+a:hover {color: ;}
+a.selected{color:;}
+h1 {font-size: ; color:  ; margin-bottom: ; font-weight:bold;}
+h2 {font-size: ; color:  ; margin-bottom: ; font-weight:bold;}
+h3 {font-size: ; font-weight: bold; color:  ; margin: ;}
+p {font-size: ;line-height: ;margin-bottom:;}
+
+/* UTILITY CLASSES */
+.fl {float: left;}
+.fr {float: right;}
+.cl {clear: left;}
+.cr {clear: right;}
+.clear {clear: both;}
+.tr{text-indent:-9999px;display:block;background-repeat:no-repeat;background-position:top left;}
+em{font-style:italic;}
+strong{font-weight:bold;}
+
+.transparent{  
+    filter:alpha(opacity=50);  
+    -moz-opacity:0.5;  
+    -khtml-opacity: 0.5;  
+    opacity: 0.5;  
+}
+
+.dropShadow{
+	-moz-box-shadow: 0px -1px 5px #333;
+	-webkit-box-shadow: 0px -1px 5px #333;
+	box-shadow: 0px -1px 5px #333;
+}
+
+.roundedCorners{
+	-moz-border-radius: 20px;  
+	-webkit-border-radius: 20px; 
+	border-radius:20px;
+}
+
+a[href$="pdf"]:after,
+a[href$="doc"]:after {
+margin:0 0 0 5px;
+font:bold 12px "Lucida Grande";
+content: " (PDF)";
+}
+a[href$=".doc"]:after {content: " (DOC)";}
