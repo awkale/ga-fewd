@@ -2,12 +2,53 @@
 <head>
 	<title>Easy Slider Demo</title>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-	
+
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
   <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.4" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
 </head>
 <body>
 
+<a class="fancybox" rel="group" href="images/dutch-main-1.jpg"> <img src="images/dutch-thumb-1.jpg" alt="dutch-main-1" width="150" height="150"></a>
+
+<a class="fancybox" rel="group" href="images/dutch-main-2.jpg"> <img src="images/dutch-thumb-2.jpg" alt="dutch-main-2" width="150" height="150"></a>
+
+<a class="fancybox" rel="group" href="images/dutch-main-3.jpg"> <img src="images/dutch-thumb-3.jpg" alt="dutch-main-3" width="150" height="150"></a>
+
+<a class="fancybox" rel="group" href="images/dutch-main-4.jpg"> <img src="images/dutch-thumb-4.jpg" alt="dutch-main-4" width="150" height="150"></a>
+
+<a class="fancybox" rel="group" href="images/dutch-main-5.jpg"> <img src="images/dutch-thumb-5.jpg" alt="dutch-main-5" width="150" height="150"></a>
+
+<a class="fancybox-media"  href="http://youtu.be/-pVHC1DXQ7U?autoplay=1" >Flying Lotus</a>
+
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.4"></script>
+<script type="text/javascript" src="js/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="js/jquery.fancybox-media.js?v=1.0.5"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none',
+		});
+	});
+</script>
+
+<script type="text/javascript">
+	$(function(){
+		$(".fancybox-media").fancybox({
+			openEffect  : 'none',
+			closeEffect : 'none',
+			helpers : {
+			media : {}
+		}
+		});
+	});
+</script>
 
 
 

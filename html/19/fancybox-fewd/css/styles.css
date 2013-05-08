@@ -2,7 +2,7 @@
 /*
 Designed and developed by philosophie llc
 
-Client: 
+Client:
 Project: Website 1.0
 Designers: Emerson Taymor and Skot Carruth
 
@@ -10,12 +10,12 @@ Designers: Emerson Taymor and Skot Carruth
 
 ===COLOR SCHEME===
 
-Background: 
-Links: 
-Headers: 
-Accent: 
-Borders: 
-	
+Background:
+Links:
+Headers:
+Accent:
+Borders:
+
 */
 
 body{
@@ -48,11 +48,11 @@ p {font-size: ;line-height: ;margin-bottom:;}
 em{font-style:italic;}
 strong{font-weight:bold;}
 
-.transparent{  
-    filter:alpha(opacity=50);  
-    -moz-opacity:0.5;  
-    -khtml-opacity: 0.5;  
-    opacity: 0.5;  
+.transparent{
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
 }
 
 .dropShadow{
@@ -62,8 +62,8 @@ strong{font-weight:bold;}
 }
 
 .roundedCorners{
-	-moz-border-radius: 20px;  
-	-webkit-border-radius: 20px; 
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
 	border-radius:20px;
 }
 
@@ -74,3 +74,7 @@ font:bold 12px "Lucida Grande";
 content: " (PDF)";
 }
 a[href$=".doc"]:after {content: " (DOC)";}
+
+
+
+

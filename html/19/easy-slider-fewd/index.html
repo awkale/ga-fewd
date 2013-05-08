@@ -2,13 +2,32 @@
 <head>
 	<title>Easy Slider Demo</title>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-	
+
 	<link href="css/reset.css" rel="stylesheet" type="text/css" />
   <link href="css/styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+<div id="slider">
+	<ul>
+		<li><img src="images/wall-main-1.jpg" alt="wall-main-1" width="951" height="514"></li>
+		<li><img src="images/wall-main-2.jpg" alt="wall-main-2" width="951" height="514"></li>
+		<li><img src="images/wall-main-3.jpg" alt="wall-main-3" width="951" height="514"></li>
+	</ul>
+</div>
 
+<script type="text/javascript" src="js/easySlider1.7.js"></script>
+<script type="text/javascript">
+	$(function(){
 
+		$("#slider").easySlider({
+			auto: true,
+			pause: 500,
+			speed: 1500,
+			continuous: true
+		});
+
+	});
+</script>
 
 
 </body>
