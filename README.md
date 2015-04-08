@@ -1,4 +1,7 @@
 ga-fewd
 =======
 
-General Assembly Class Projects
+# FEWD10
+## General Assembly Class Projects
+
+Exercises and class slides.
